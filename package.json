@@ -1,7 +1,7 @@
 {
   "name": "oauth2-server",
   "description": "Complete, compliant and well tested module for implementing an OAuth2 Server/Provider with express in node.js",
-  "version": "2.4.0",
+  "version": "2015.1.1",
   "keywords": [
     "oauth",
     "oauth2"
@@ -14,6 +14,10 @@
     {
       "name": "Thom Seddon",
       "email": "thom@seddonmedia.co.uk"
+    },
+    {
+      "name": "John Irwin",
+      "email": "jdi@zipongo.com"
     }
   ],
   "main": "lib/oauth2server.js",
@@ -41,6 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thomseddon/node-oauth2-server.git"
+    "url": "https://github.com/zipongo/node-oauth2-server.git"
   }
 }
