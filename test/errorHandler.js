@@ -57,7 +57,7 @@ describe('Error Handler', function() {
         res.body.code.should.be.instanceOf(Number);
         res.body.code.should.equal(res.statusCode);
 
-        res.body.error.should.be.instanceOf(String);
+        res.body.type.should.be.instanceOf(String);
 
         res.body.error_description.should.be.instanceOf(String);
 

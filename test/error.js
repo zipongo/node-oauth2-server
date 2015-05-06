@@ -56,7 +56,7 @@ describe('OAuth2Error', function() {
   it('should expose the `error`', function () {
     var error = new OAuth2Error('invalid_client');
 
-    error.error.should.equal('invalid_client');
+    error.type.should.equal('invalid_client');
   });
 
   it('should expose the `error_description`', function () {
